@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title> View Detail</title>
+	</head>
+	<body>
+			<nav th:replace="fragments/fragment :: navbar"></nav>
+			
+			<h3 th:text="'license Number :' + ${pilot.licenseNumber}"></h3>
+			<h3 th:text="'Name :' + ${pilot.name}"></h3>
+			
+		
+	</body>
+	
+
+</html>
