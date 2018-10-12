@@ -1,0 +1,3 @@
+saya menyelesaikan latihan tutorial ini dengan melihat beberapa dokumentasi dan juga melihat ke forum stackoverflow,
+1. saya membuat fragment untuk navbar dengan menambahkan th:text:"title" didalamnya, dan setiap view saya tambahkan th:text:"title" agar navbar menjadi dinamis
+2. saya membuat row di html add-flight, ada fungsi menambah/mendelete row, selain itu saya juga mengubah html add-flight saya sedemikian rupa agar menjadi seperti row yang diminta pada latihan, lalu saya juga menambah addflight pada pilot controller dan mengubah tipet fetch type pilotFlight menjadi eager 
