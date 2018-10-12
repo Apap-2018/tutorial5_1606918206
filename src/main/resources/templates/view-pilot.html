@@ -22,24 +22,12 @@
 			</form>
 			
 			<br>
-		
-			
+					
 			<form th:action="@{/flight/add/} + ${pilot.licenseNumber}">
 				<button type="submit"> Add flight</button>
 			</form>
 			
-			
-			
-			<!--  
-			<div th:each="flight : ${listFlight}">
-				<h6 th:text="${flight.time}"></h6>
-				<h6 th:text="${flight.origin}"></h6>
-				<h6 th:text="${flight.destination}"></h6>
-				<h6 th:text="${flight.flightNumber}"></h6>
-				<td><a th:href="@{|/flight/update/${flight.flightNumber}|}"> update flight </a></td> <br>
-				<td><a th:href="@{|/flight/delete/${flight.flightNumber}|}"> delete flight </a></td> <br>
-			</div>
-			-->
+
 			<form th:action="@{/flight/delete}" th:object="${pilot}" method="POST">
 				<table border="I">
 				<caption> Flights</caption>
