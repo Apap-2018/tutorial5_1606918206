@@ -3,8 +3,10 @@
 
 <head>
 	<title>Add</title>
+	<object th:include="fragments/fragment :: header" th:remove="tag"></object>
 </head>
 <body>
+<nav th:replace="fragments/fragment :: navbar"></nav>
 	<h2> Data berhasil diubah </h2>
 </body>
 </html>
